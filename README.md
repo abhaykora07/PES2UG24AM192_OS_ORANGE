@@ -4,53 +4,7 @@
 **SRN:** PES2UG24AM192
 **Repository:** PES2UG24AM192_OS_ORANGE
 
----
 
-# Building PES-VCS — A Version Control System from Scratch
-
-**Objective:** Build a local version control system that tracks file changes, stores snapshots efficiently, and supports commit history. Every component maps directly to operating system and filesystem concepts.
-
-**Platform:** Ubuntu 22.04
-
----
-
-## Getting Started
-
-### Prerequisites
-
-```bash
-sudo apt update && sudo apt install -y gcc build-essential libssl-dev
-```
-
-### Using This Repository
-
-This is a **template repository**. Do **not** fork it.
-
-1. Click **"Use this template"** → **"Create a new repository"** on GitHub
-2. Name your repository (e.g., `PES2UG24AM192-pes-vcs`) and set it to **public**. Replace `SRN` with your actual SRN, e.g., `PES2UG24AM192-pes-vcs`
-3. Clone this repository to your local machine and do all your lab work inside this directory.
-4.  **Important:** Remember to commit frequently as you progress. You are required to have a minimum of 5 detailed commits per phase. Refer to [Submission Requirements](#submission-requirements) for more details.
-5. Clone your new repository and start working
-
-The repository contains skeleton source files with `// TODO` markers where you need to write code. Functions marked `// PROVIDED` are complete — do not modify them.
-
-### Building
-
-```bash
-make          # Build the pes binary
-make all      # Build pes + test binaries
-make clean    # Remove all build artifacts
-```
-
-### Author Configuration
-
-PES-VCS reads the author name from the `PES_AUTHOR` environment variable:
-
-```bash
-export PES_AUTHOR="Your Name <PES2UG24AM192>"
-```
-
-If unset, it defaults to `"PES User <pes@localhost>"`.
 
 ### File Inventory
 
